@@ -1,0 +1,93 @@
+/* APP */
+html, body {
+    margin: 0;
+    padding: 0;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+input {
+    font-size: 2em;
+    text-align: center;
+}
+button {
+    font-size: 1.5em;
+}
+hr {
+    width: 40vw;
+}
+/* PARTIALS */
+header, footer {
+    height: 10vh;
+    width: 100vw;
+    text-align: center;
+}
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+/* SCREENS */
+.screen {
+    height: 80vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#game {
+    display: none;
+}
+#game-choices {
+    height: 40vh;
+    width: 65vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.game-choice {
+    margin: 1em;
+    height: 35vh;
+    width: 15vw;
+    text-align: center;
+    border: 1px solid black;
+}
+.game-choice:hover {
+    cursor: pointer;
+}
+#feed {
+    height: 35vh;
+    width: 65vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+#player-list {
+    height: 30vh;
+    width: 15vw;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border: 1px solid black;
+    text-align: center;
+}
+#feed-losers {
+    height: 30vh;
+    width: 15vw;
+    text-align: center;
+    overflow-y: scroll;
+    border: 1px solid black;
+}
+#feed-winners {
+    height: 30vh;
+    width: 15vw;
+    text-align: center;
+    overflow-y: scroll;
+    border: 1px solid black;
+}
